@@ -8,6 +8,15 @@
           "value": "application/wasm"
         }
       ]
+    },
+    {
+      "source": "/tetris/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
     }
   ]
 }
